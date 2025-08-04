@@ -1525,3 +1525,160 @@ mark {
   color: #777;
   margin-top: 1rem;
 }
+/* =========== BASIC RESPONSIVE BREAKPOINTS FOR ALL LAYOUTS =========== */
+
+/* --- Responsive Container and Typography --- */
+html { font-size: 16px; }
+@media (max-width: 1000px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 700px) {
+  html { font-size: 14px; }
+}
+
+/* --- Header & Nav --- */
+@media (max-width: 850px) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.7rem 0.7rem;
+    gap: 0.7rem;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .main-nav { width: 100%; }
+}
+
+/* --- Hero Section --- */
+@media (max-width: 800px) {
+  .hero {
+    height: 55vh;
+    padding: 0.6rem 0.2rem;
+    background-position: center 30%;
+  }
+  .hero-content {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .hero-title { font-size: 2rem; }
+}
+
+/* --- Welcome Section (Homepage) --- */
+@media (max-width: 1050px) {
+  .welcome-content {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0.2rem;
+    gap: 20px;
+  }
+  .welcome-image { max-width: 330px; }
+  .greetings-section {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 9px;
+  }
+}
+
+/* --- Region/Guide/Cards/Photo Grids --- */
+@media (max-width: 1100px) {
+  .recs-cards, .photos-grid, .photos-grid-6, .guide-grid, .regions-overview {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 98vw;
+    gap: 20px 12px;
+  }
+  .section-vintage, .vintage-bg, .culture-section, .weather-section, .gallery-section {
+    max-width: 98vw;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+@media (max-width: 700px) {
+  .recs-cards, .photos-grid, .photos-grid-6, .guide-grid, .regions-overview {
+    grid-template-columns: 1fr;
+    max-width: 99vw;
+    gap: 16px;
+  }
+  .rec-card, .photo-thumb, .guide-item, .region-card {
+    max-width: 99vw;
+    min-width: 0;
+    margin: 0 auto;
+  }
+}
+
+/* --- City Intro Dense, Timelines, Sections --- */
+@media (max-width: 900px) {
+  .city-intro-dense {
+    flex-direction: column;
+    min-height: 290px;
+    padding: 2vw 1vw;
+    gap: 18px;
+  }
+  .intro-visuals, .intro-main-content {
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    padding: 0.7rem 0.4rem;
+  }
+  .timeline-row, .timeline-row.reverse {
+    flex-direction: column !important;
+    gap: 0.5rem;
+  }
+}
+
+/* --- City Hero Title, Culture Header --- */
+@media (max-width: 600px) {
+  .city-hero .title-wrapper,
+  .culture-header h2,
+  .recs-heading,
+  .photos-gallery-title,
+  .vintage-title,
+  .intro-title-row h2 {
+    font-size: 1.18rem !important;
+    padding: 0.4em 0.7em !important;
+    max-width: 95vw;
+  }
+}
+
+/* --- Responsive Images --- */
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+  .rec-card img, .photo-thumb img {
+    width: 99vw;
+    height: auto;
+  }
+}
+
+/* --- Responsive Footer --- */
+@media (max-width: 900px) {
+  .footer-content { flex-direction: column; gap: 2rem; }
+  .footer-info { max-width: 99vw; }
+  .footer-thumb, .thumb-decor { width: 95vw; max-width: 380px; }
+}
+
+/* --- Section Spacing & Misc --- */
+@media (max-width: 600px) {
+  .section-spacing, .city-pagination-row, .city-intro-dense, .culture-section, .weather-section, .section-vintage, .vintage-bg {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    border-radius: 8px;
+  }
+}
+
+/* --- Hide non-critical decor on XS screens --- */
+@media (max-width: 600px) {
+  .decor-tape, .chart-tape, .polaroid-xl, .intro-side-img, .timeline-image-large { display: none !important; }
+}
+
+/* ========== END BASIC RESPONSIVE ========== */
+
