@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>South Vietnam Travel Guide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Imperial Script"> <style></style>
+  <link rel="stylesheet" href="styles.css" />
+
+
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+
+ <!-- SITE HEADER: logo, nav, and language toggle -->
+  <header class="site-header">
+  <div class="container">
+      
+  <a href="index.html" class="logo-link" aria-label="Home">
+        <img src="images/south-vietnam-logo.png" alt="South Vietnam Logo" class="logo-img"/>
+     <span class="logo-text">Home</span>
+      </a>
+
+   <nav class="main-nav" aria-label="Primary">
+      <ul class="nav-list">
+          <li><a href="hcmc.html" id="nav-hcmc" >Ho Chi Minh City</a></li>
+          <li><a href="mk-delta.html" id="nav-mekong" >Mekong Delta</a></li>
+          <li><a href="dn-h-ha.html" id="nav-danang" >Da Nang – Hue – Hoi An</a></li>
+        </ul>
+      </nav>
+
+      
+    
+    </div>
+  </header>
+
+<!-- HERO SECTION -->  
+ <section class="hero">
+    <div class="hero-overlay"></div>
+      <div class="hero-content">
+    <p class="hero-subtitle" id="hero-subtitle" >
+        A comprehensive guide to discover the best of
+         </p>
+     <h1 class="hero-title" id="hero-title">
+        South Vietnam
+      </h1>
+
+       
+      <div class="hero-actions">
+           <button id="open-video" class="video-btn" aria-label="Play intro video">▶</button>
+       <a href="#welcome" id="hero-btn" class="start-btn" >
+          Start Now
+        </a>
+       </div>
+    </div>
+  
+
+  <!-- VIDEO MODAL -->
+  <div id="video-modal" class="video-modal hidden">
+    <div class="video-backdrop"></div>
+       <div class="video-container">
+    <button id="close-video" class="close-btn" aria-label="Close video">✕</button>
+    <video controls autoplay>
+        <source src="video/south-vn-hero.mp4" type="video/mp4"/>
+         </video>
+    </div>
+  </div>
+</section>
+
+<main>
+  <!-- WELCOME SECTUION -->
+    <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+      <div class="welcome-background"></div>
+      <div class="welcome-content">
+        <div class="welcome-image-container">
+          <img class="welcome-image"
+            src="images/hp-intro.jpg"
+            alt="Person on a boat in Hoi An"/>
+         <p><a href="https://www.pexels.com/photo/person-in-a-boat-on-body-of-water-2796627/" class="img-sub"> <i>Photo by Nguyễn Anh Vũ from Pexels</i> </a></p>
+        </div>
+        <div class="welcome-text">
+          <h3 class="welcome-title" id="welcome-title">
+            Welcome to South Vietnam...
+          </h3>
+          <p class="welcome-description">
+            Welcome to my website - your go to guide for exploring the vibrant and unforgettable South Vietnam. Inh here, you’ll find things you need to plan a trip packed with culture, adventure, and delicious food. 
+
+            <br /><br />
+            So why South Vietnam? It’s a region where bustling cities meet peaceful rivers, compacted with the historical sites and ccontext that make it so unforeggetable. This is where street food is unmatched, and every corner has a different story and tradition to tell. From the  energy of Ho Chi Minh City to the lush landscapes of the Mekong Delta and the ancienct buildings mixes with beaches of Hue-Da Nang-Hoi An, South Vietnam offers a perfect mix of excitement and relaxation. This site is here to help you discover the best spots, cultures, cuisine, and must go landmarks - all in one place. 
+          </p>
+      </div>
+        <div class="greetings-section">
+          <div class="greeting-item">
+            <span class="greeting-english">Greetings</span>
+            <span class="greeting-vietnamese">Xin Chào</span>
+          </div>
+          <div class="greeting-item">
+            <span class="greeting-english">Thank you</span>
+            <span class="greeting-vietnamese">Cảm Ơn</span>
+          </div>
+          <div class="greeting-item">
+            <span class="greeting-english">How are you?</span>
+            <span class="greeting-vietnamese">Bạn khoẻ không?</span>
+          </div>
+          <div class="greeting-item">
+            <span class="greeting-english">Sorry</span>
+            <span class="greeting-vietnamese">Xin lỗi</span>
+          </div>
+        </div>
+        </div>
+
+
+    </section>
+
+<!--  GENERAL GUIDE SECTION-->
+<section id="general-guide" class="general-guide-section">
+  
+
+  
+  <h2 class="guide-title" >
+    General Information Before Departure
+  </h2>
+
+  <div class="guide-grid">
+    <article class="guide-item">
+      <div class="guide-icon-wrapper">
+        <i class="guide-icon"></i>
+      </div>
+      <img src="images/vn-currency.jpg" class="guide-img" alt="Vietnamese Dong notes">
+      <p><a href="https://pixabay.com/photos/computer-money-vietnam-3044456/" class="img-sub"> <i>Photo obtained from Pixabay </i> </a></p>
+      <h3>
+        Currency 
+      </h3>
+      <p >
+        The <strong>official currency is the Vietnamese Dong (₫)</strong>. While credit cards are accepted in major cities, cash is preferred in rural areas, markets, and street food stalls. Make sure you always carry cash for convenience.  
+        <br><small><i>Note:</i> ATMs are widespread and support foreign cards <i>however, mostly common in cities (e.g. Ho Chi Minh City). Do not recommend to bring only card to rural areas</i>.</small>
+      </p>
+      <a href="https://www.xe.com/currencyconverter/" target="_blank" class="learn-more enhanced-btn" rel="noopener">
+        <i class="fas fa-external-link-alt"></i>
+        Learn more
+      </a>
+    </article>
+
+    <article class="guide-item">
+      <div class="guide-icon-wrapper">
+        <i class="fas fa-language guide-icon"></i>
+      </div>
+      <img src="images/vn-languages.jpg" class="guide-img" alt="Vietnamese man talking to foreign travellers.">
+      <p><a href="https://www.pexels.com/photo/an-elderly-man-talking-to-a-man-and-a-woman-9748766/" class="img-sub"> <i>Photo by Đặng Thanh Tú from Pexels</i> </a></p>
+      <h3>
+        Language 
+      </h3>
+      <p >
+        <strong>Vietnamese</strong> is <strong>the national language</strong>. English is common in cities and tourist spots, but limited in rural areas. Learning key phrases like "Xin chào" (hello) and "Cảm ơn" (thank you) is appreciated.
+        <br><small><i>Note:</i> English signs and speakers are found in cities, but in places like the Mekong Delta, a traveller guide or basic Vietnamese may be needed.</small> </br>
+      </p>
+      <a href="https://www.omniglot.com/language/phrases/vietnamese.php" target="_blank" class="learn-more enhanced-btn" rel="noopener">
+        <i class="fas fa-external-link-alt"></i>
+        Phrase list
+      </a>
+    </article>
+
+    <article class="guide-item">
+      <div class="guide-icon-wrapper">
+        <i class="fas fa-plug guide-icon"></i>
+      </div>
+      <img src="images/vietnam-plug.jpeg" class="guide-img" alt="Vietnam power plug types">
+      <p><a href="https://asialegend.travel/vietnam-plug-type-for-international-traveler/" class="img-sub"> <i>Photo obtained from Asia Legend Travel </i> </a></p>
+      <h3 >
+        Power &amp; Plugs
+      </h3>
+      <p>
+        Vietnam uses <strong>Type A, C, D sockets (110/220 V)</strong>. <strong>Universal adapters are recommended</strong> and can be purchased at convenience stores like 7-Eleven throughout the country. <small><i>Note:</i> Preferably purchase adapters BEFORE travelling. Otherwise please purchase in reliable supermarket or bookstores to ensure safety. </small> </br>
+      </p> 
+      <a href="https://www.power-plugs-sockets.com/vietnam" target="_blank" class="learn-more enhanced-btn" rel="noopener">
+        <i class="fas fa-external-link-alt"></i>
+        Plug guide
+      </a>
+    </article>
+
+    <article class="guide-item">
+      <div class="guide-icon-wrapper">
+        <i class="fas fa-cloud-sun guide-icon"></i>
+      </div>
+      <img src="images/vietnam-weather.jpg" class="guide-img" alt="Vietnam weather chart">
+      <p><a href="https://vietnamstory.in/vietnams-weather/" class="img-sub"> <i>Photo obtained from Vietnam story </i> </a></p>
+      <h3>
+        Best Time to Visit
+      </h3>
+      <p>
+        South Vietnam don't have four seasons but only two - Dry & Wet. <strong>Dry season (Nov–Apr):</strong> 28–32°C with clear skies and minimal rainfall. This would be perfect if you prefer dry weather for beaches or travelling. While  <strong>wet season (May–Oct):</strong> showers throughout the day and sometimes can lead to floods. This would be the best you if enjoy a cooler weather with droplets of rain (like Hue, the city of rain in Vietnam).
+      </p>
+      <a href="https://www.climate-data.org/asia/vietnam/" target="_blank" class="learn-more enhanced-btn" rel="noopener">
+        <i class="fas fa-external-link-alt"></i>
+        Weather chart
+      </a>
+    </article>
+  </div>
+</section>
+
+
+<!-- REGION OVERVIEW -->
+<section id="regions-overview" class="regions-overview-section">
+  <div class="section-container">
+    <h2 class="region-title">
+      Regions Overview
+    </h2>
+    
+    <div class="regions-overview">
+      <div class="region-card" data-region="hcmc">
+        <div class="region-image">
+          <img src="images/hcm-river-view.jpg" 
+               alt="Ho Chi Minh City's modern river view" 
+               loading="lazy">
+        </div>
+        <div class="region-content">
+          <p><a class="img-sub" href="https://www.pexels.com/photo/high-rise-building-near-the-body-of-water-photo-691541/"> <i> Photo by Louis PHDC from Pexels</i></a></p>
+          
+          <a href="hcmc.html"> <h3>Ho Chi Minh City</h3></a>
+          <p> Ho Chi Minh City is the main metropolis of Vietnam. It is the heart of Vietnam's economy, with over 10 millions people as its population. Ho Chi Minh (previously Saigon), is one of the main tourist attraction, as it's unique for the combination of all cultures across Vietnam.</p>
+          <div class="region-highlights">
+            <span class="highlight-tag"><i class="fas fa-utensils"></i> Diverse culture</span>
+            <span class="highlight-tag"><i class="fas fa-landmark"></i> Bustling cities</span>
+            <span class="highlight-tag"><i class="fas fa-city"></i> Urban Life</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="region-card" data-region="mekong">
+        <div class="region-image">
+          <img src="images/md-rice-field-2.jpg" 
+               alt="Mekong Delta - Working farmers on a rice field" 
+               loading="lazy">
+        </div>
+        <div class="region-content">
+          <p><a class="img-sub" href="https://www.pexels.com/photo/farmers-working-in-rice-fields-of-c-n-th-vietnam-31050715/"> <i> Photo by FLIM 6 from Pexels</i></a></p>
+          <a href="mk-delta.html"> <h3>Mekong Delta</h3></a>
+          <p>Mekong Delta is gifted with beautiful rivers and landscapes, with many of its unique rice fields and dishes. This is the place where you want to find peace instead of bustling cities, close you eyes and hear the sound of wind whistling through the rice paddy. Here, you can explore the simplicity yet full of love from the West of Vietnam's people.</p>
+          <div class="region-highlights">
+            <span class="highlight-tag"><i class="fas fa-ship"></i> River Life</span>
+            <span class="highlight-tag"><i class="fas fa-seedling"></i> Agriculture</span>
+            <span class="highlight-tag"><i class="fas fa-leaf"></i> Nature</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="region-card">
+        <div class="region-image">
+          <img src="images/hue-palace-pixabay.jpg" 
+               alt="Central Vietnam - Hue's Palace" 
+               loading="lazy">
+            
+          </div>
+        
+        <div class="region-content">
+                      <p><a class="img-sub" href="https://pixabay.com/photos/ancient-capital-of-hue-hue-6696940/"> <i> Photo by thetoan2512 from pixabay</i></a></p>
+         <a href="dn-h-ha.html"> <h3>Hue - Da Nang - Hoi An</h3></a>
+          <p> Hue - Da Nang - Hoi An, once the home of the Vietnamese Emperor before 1945, now has transformed into popular tourists attractions due to its picturesque beaches, historical landmarks and vintage latern festival by the rivers at night. Contrast of the others, Hue- Da Nang - Hoi An reflects a more old, ancient and historical reflections of Vietnam's past history and culture.   </p>
+          <div class="region-highlights">
+            <span class="highlight-tag"><i class="fas fa-crown"></i> Imperial</span>
+            <span class="highlight-tag"><i class="fas fa-umbrella-beach"></i> Beaches</span>
+            <span class="highlight-tag"><i class="fas fa-star"></i> Historical</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+</div>
+
+ <nav class="city-pagination-row">
+  <a href="dn-h-ha.html" class="city-page-link prev">
+   &larr;<span>Previous: Hue - Da Nang - Hoi An</span> 
+  </a>
+  <a href="hcmc.html" class="city-page-link next">
+    <span>Next: Ho Chi Minh City</span> &rarr;
+  </a>
+</nav>
+
+   
+ </main>
+
+   <!--FOOTER SECTION-->
+ <footer class="site-footer">
+ 
+  <div class="footer-banner">
+     <img src="images/south-vn-banner.jpg" alt="South Vietnam panorama">
+    <div class="footer-caption"> South Vietnam</div>
+  </div>
+
+  <div class="footer-content">
+    <div class="thumb-decor">
+        <img src="images/hcm-footer.jpg" alt=" Ho Chi Minh footer" class="footer-thumb">
+    </div>
+
+    <div class="footer-info">
+      <h3>References</h3>
+     <ul>
+        <li>Home Page Hero Image - <a href="https://www.pexels.com/photo/boat-on-a-river-between-palm-trees-14434745/"><i>Photo by Alberto Capparelli from Pexels </i></a> </li>
+        <li>Introduction - Homepage - <a href="https://www.pexels.com/photo/person-in-a-boat-on-body-of-water-2796627/"><i>Photo by Nguyễn Anh Vũ from Pexels</i></a> </li>
+        <li>Footer - Homepage - Photo by Nguyen Doan from Pexels </li>
+      </ul>
+
+    <h3>Further reading</h3>
+      <ul>
+        <li><a href="https://medium.com/sylvianism/https-medium-com-sylvianism-the-south-vietnam-food-trail-42aba9cbbd0">Cuisine deep-dive - <i>from Sylvian Patrick, Medium</i></a></li>
+        <li><a href="https://www.inspiringvacations.com/nz/vietnam-tours/insight-articles/from-hanoi-to-ho-chi-minh-vietnams-contrasting-heritage/128">Culture &amp; traditions - North vs South <i>from the inspiringvacations</i> </a></li>
+        <li><a href="https://hanoivoyage.com/en/blog/discover-southern-vietnam.html">Landmarks discovery <i>from Hanoi Voyage</i></a></li>
+      </ul>
+
+  <p class="update">© South Vietnam Travel Guide 2025</p>
+    </div>
+  </div>
+</footer>
+
+
+ 
+</body>
+</html>
