@@ -33,34 +33,34 @@ body.hcmc-page {
 }
 /* --- Mekong Delta: Lush Green Palette --- */
 body.mekong-page {
-  --city-bg:          #F4F7F3;   /* river mist, soft, clean */
-  --city-accent:      #54764B;   /* mangrove green, main accent */
-  --city-accent-dark: #33462C;   /* deep moss, for strong contrast */
-  --city-accent-light:#C8D4BD;   /* light lotus leaf, box/card */
-  --city-box:         #C8D4BD;   /* same as accent light, primary box/card */
-  --city-box-alt:     #E8E6D1;   /* faded rice straw, alt box */
-  --city-strip:       #E7D6A9;   /* pale rice husk gold, strips/subnav */
-  --city-strip-hover: #54764B;   /* main green, strong hover */
-  --city-card:        #E2EDDC;   /* river mist, pale alt for cards */
-  --city-highlight:   #E7D6A9;   /* gold highlight */
-  --city-title:       #33462C;   /* deep, natural for header text */
-  --city-title-bg:    #F9FAF7;   /* extra-pale for title blocks */
+  --city-bg:          #F4F7F3;   
+  --city-accent:      #54764B;   
+  --city-accent-dark: #33462C;  
+  --city-accent-light:#C8D4BD;  
+  --city-box:         #C8D4BD;   
+  --city-box-alt:     #E8E6D1;  
+  --city-strip:       #E7D6A9;   
+  --city-strip-hover: #54764B;  
+  --city-card:        #E2EDDC;   
+  --city-highlight:   #E7D6A9;  
+  --city-title:       #33462C;   
+  --city-title-bg:    #F9FAF7;  
 }
 
 /* --- Hue-Danang-Hoi An: Vintage Light Yellow & Red Accent --- */
 body.hue-dn-ha-page {
-  --city-bg:            #F3ECE7;   /* Warm, vintage paper */
-  --city-accent:        #8C2F2B;   /* True lacquer/brick red */
-  --city-accent-dark:   #54221B;   /* Deep brown-red */
-  --city-accent-light:  #E6D3C4;   /* Card/box: parchment clay */
-  --city-box:           #E6D3C4;   /* Same as accent light, for card/box */
-  --city-box-alt:       #F5E8DA;   /* Bleached antique, for contrast */
-  --city-strip:         #C0A88E;   /* Aged wall, soft subnavs/strips */
-  --city-strip-hover:   #8C2F2B;   /* Main red for hovers/active */
-  --city-card:          #F5E8DA;   /* Light card alt, extra pale */
-  --city-highlight:     #967749;   /* Subtle, vintage gold highlight */
-  --city-title:         #8C2F2B;   /* Always main vintage red */
-  --city-title-bg:      #F9F5F2;   /* Ultra pale for title backgrounds */
+  --city-bg:            #F3ECE7;   
+  --city-accent:        #8C2F2B;   
+  --city-accent-dark:   #54221B;   
+  --city-accent-light:  #E6D3C4;  
+  --city-box:           #E6D3C4;   
+  --city-box-alt:       #F5E8DA;   
+  --city-strip:         #C0A88E;   
+  --city-strip-hover:   #8C2F2B;  
+  --city-card:          #F5E8DA;   
+  --city-highlight:     #967749;   
+  --city-title:         #8C2F2B;  
+  --city-title-bg:      #F9F5F2;  
 }
 
 
@@ -715,10 +715,20 @@ body.danang-page {
   height: 200px;
   object-fit:cover;
 }
-.img1 { top: 10px; left: 5px; transform: rotate(-7deg) scale(1.15);}
-.img2 { top: 120px; left: 110px; transform: rotate(3deg) scale(1.1);}
-.img3 { top: 280px; left: 0px; transform: rotate(-6deg) scale(1.12);}
-.decor-tape { position: absolute; top: 160px; left: 115px; width: 56px; opacity: .64; z-index: 3;}
+.img1 { 
+  top: 10px; 
+  left: 5px; 
+  transform: rotate(-7deg) scale(1.15);}
+
+.img2 {
+   top: 120px; 
+  left: 110px; 
+  transform: rotate(3deg) scale(1.1);}
+.img3 {
+   top: 280px;
+    left: 0px; 
+    transform: rotate(-6deg) scale(1.12);}
+
 .intro-main-content {
   flex: 1 1 0;
   background: var(--city-box-alt);
@@ -762,7 +772,9 @@ body.danang-page {
   color: var(--city-accent-dark);
   min-width: 320px;
 }
-.intro-text-content p { margin-bottom: 1.08em; }
+.intro-text-content p { 
+  margin-bottom: 1.08em; }
+
 .intro-side-img {
   flex: 1 1 0;
   min-width: 210px;
@@ -846,7 +858,7 @@ body.danang-page {
 }
 .weather-chart-xl { width: 400px; height: 300px; }
 .weather-chart-box img { width: 100%; height: 100%; }
-.chart-tape { position: absolute; top: -15px; left: 28px; width: 65px; opacity: 0.61; }
+
 .weather-more-btn {
   background: var(--city-highlight);
   color: var(--city-accent-dark);
@@ -947,7 +959,10 @@ body.danang-page {
   margin-bottom: 2vw;
   position: relative;
 }
-.timeline-row.reverse { flex-direction: row-reverse; }
+.timeline-row.reverse { 
+  flex-direction: row-reverse; 
+}
+
 .timeline-image-col {
   flex: 1.05;
   display: flex;
@@ -971,8 +986,19 @@ body.danang-page {
   width: 320px;
   height: 220px;
 }
-.timeline-row.reverse .timeline-image-box { margin-left: 0; margin-right: 0.7em; }
-.timeline-image-box img { width: 100%; height: 100%; object-fit: cover; }
+.timeline-row.reverse .timeline-image-box 
+{ 
+  margin-left: 0; 
+  margin-right: 0.7em;
+
+ }
+
+.timeline-image-box img { 
+  width: 100%;
+   height: 100%; 
+   object-fit: cover; 
+  }
+
 .timeline-arrow {
   position: absolute;
   right: 10px;
@@ -1133,7 +1159,8 @@ body.danang-page {
   flex-direction: column;
   justify-content: flex-start;
 }
-.cuisine-text-compact p:first-child { margin-top: 0.3rem; }
+.cuisine-text-compact p:first-child { 
+  margin-top: 0.3rem; }
 
 /* -- PLACES RECOMMENDATIONS -- */
 .vintage-bg {
@@ -1378,9 +1405,9 @@ mark {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto 60px auto;  /* generous bottom margin before footer */
+  margin: 0 auto 60px auto;  
   padding: 0 0 0 0;
-  background: transparent;    /* no row background */
+  background: transparent;    
   
 }
 
