@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     video.muted = true; // reset muted for next open 
   }
 
+  // Close with X or backdrop
   closeBtn.addEventListener('click', closeModal);
   backdrop.addEventListener('click', closeModal);
 
