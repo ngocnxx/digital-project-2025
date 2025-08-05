@@ -57,15 +57,18 @@
   
 
   <!-- VIDEO MODAL -->
-  <div id="video-modal" class="video-modal hidden">
-    <div class="video-backdrop"></div>
-       <div class="video-container">
+<!-- VIDEO MODAL -->
+<div id="video-modal" class="video-modal hidden">
+  <div class="video-backdrop"></div>
+  <div class="video-container">
     <button id="close-video" class="close-btn" aria-label="Close video">✕</button>
-    <video controls autoplay>
-        <source src="video/south-vn-hero.mp4" type="video/mp4"/>
-         </video>
-    </div>
+    <video id="hero-video" controls muted preload="metadata" tabindex="0">
+      <source src="video/south-vn-hero.mp4" type="video/mp4"/>
+      
+    </video>
   </div>
+</div>
+
 </section>
 
 <main>

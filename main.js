@@ -1,27 +1,29 @@
-//VIDEO MODAL//
+// VIDEO MODAL 
 document.addEventListener('DOMContentLoaded', function() {
-  // Get elements
-  const openBtn = document.getElementById('open-video');
-  const modal = document.querySelector('.video-modal');
-  const closeBtn = document.querySelector('.close-btn');
-  const backdrop = document.querySelector('.video-backdrop');
-  const video = modal.querySelector('video');
+  // Elements
+  const openBtn   = document.getElementById('open-video');
+  const modal     = document.getElementById('video-modal');
+  const closeBtn  = document.getElementById('close-video');
+  const backdrop  = modal.querySelector('.video-backdrop');
+  const video     = document.getElementById('hero-video');
 
-  // Show modal
+  // Open modal and play video (UNMUTED)
   openBtn.addEventListener('click', function() {
     modal.classList.remove('hidden');
-    // Reset and pause video
-    video.pause();
     video.currentTime = 0;
+    video.muted = false;    // unmute before playing
+    video.play();
+    video.focus(); 
   });
 
-  // Hide modal function
+  // Hide modal and pause video
   function closeModal() {
     modal.classList.add('hidden');
     video.pause();
+    video.currentTime = 0;
+    video.muted = true; // reset muted for next open 
   }
 
-  // Close with X or backdrop
   closeBtn.addEventListener('click', closeModal);
   backdrop.addEventListener('click', closeModal);
 
