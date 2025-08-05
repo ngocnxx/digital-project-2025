@@ -103,8 +103,15 @@ html, body {
   color: var(--clr-white);
   font-weight: bold; }
 .logo-img { width: 40px; }
-.logo-text { font-size: 1.15rem; font-weight: bold; }
-.main-nav { flex: 1; }
+.logo-text { 
+  font-size: 1.15rem; 
+font-weight: bold;
+           }
+
+.main-nav { 
+  flex: 1; 
+}
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -524,7 +531,10 @@ html, body {
   margin-bottom: 1.5rem;
   font-size: 15px;
 }
-.region-content a { text-decoration: none; }
+.region-content a { 
+  text-decoration: none; 
+}
+
 .region-highlights {
   display: flex;
   flex-wrap: wrap;
@@ -1058,7 +1068,10 @@ body.danang-page {
   transform: translateY(16px) scale(0.99);
   transition: opacity 0.22s, transform 0.25s;
 }
-.timeline-row.reverse .timeline-content-box { margin-left: 0; margin-right: 1vw; }
+.timeline-row.reverse .timeline-content-box { 
+  margin-left: 0; 
+  margin-right: 1vw; 
+}
 
 /* -- CUISINE -- */
 .section-vintage {
@@ -1384,7 +1397,12 @@ mark {
   border-radius: 3px;
 }
 /* === Captions and Credits Below Images === */
-.photo-thumb figcaption { text-align: center; margin-top: 8px; padding: 0 6px; }
+.photo-thumb figcaption { 
+  text-align: center; 
+  margin-top: 8px; 
+  padding: 0 6px; 
+}
+
 .photo-thumb .img-caption {
   font-size: 0.9rem;
   font-weight: 600;
