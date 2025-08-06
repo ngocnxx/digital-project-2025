@@ -146,7 +146,7 @@ font-weight: bold;
 
 .hero {
   position: relative;
-  height: 120vh;
+  height: 110vh;
   background: url("images/hp-hero.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
