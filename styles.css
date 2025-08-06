@@ -66,7 +66,12 @@ body.hue-dn-ha-page {
 
 
 /* RESET */
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
 html, body {
   height: 100%;
   font-family: Georgia, serif;
@@ -303,7 +308,10 @@ font-weight: bold;
   transform: scale(1.02) rotate(1deg);
   box-shadow: 0 20px 50px rgba(0,0,0,0.15);
 }
-.welcome-text { grid-area: text; padding-top: 1rem; }
+.welcome-text {
+  grid-area: text;
+         padding-top: 1rem; 
+              }
 .welcome-title {
   font-size: clamp(28px, 4vw, 48px);
   margin-bottom: 0.75rem;
@@ -1230,7 +1238,10 @@ body.danang-page {
   z-index: 2;
   text-decoration: underline ;
 }
-.recs-tab:focus { color: var(--city-accent-dark); }
+.recs-tab:focus {
+  color: var(--city-accent-dark);
+}
+
 .recs-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1266,7 +1277,11 @@ body.danang-page {
   box-shadow: 0 2px 9px var(--city-highlight);
   background: var(--city-box-alt);
 }
-.rec-card .img-sub{ font-size:0.8rem; margin-bottom: 10px; }
+.rec-card .img-sub{ 
+  font-size:0.8rem; 
+  margin-bottom: 10px; 
+}
+
 .rec-card-title {
   font-family: 'Playfair Display', serif;
   font-size: 1.3rem;
