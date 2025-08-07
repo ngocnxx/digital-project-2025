@@ -256,8 +256,7 @@ font-weight: bold;
 .close-btn {
   position: absolute;
   top: 8px;
-  right: 12px;
-  pointer-events: auto;        
+  right: 12px;       
   z-index:999;
   background: transparent;
   color: var(--clr-white);
@@ -1317,6 +1316,7 @@ body.danang-page {
   margin-bottom: 7px;
   letter-spacing: 0.02em;
   text-align: center;
+  text-decoration: underline;
 }
 
 .rec-card-location {
