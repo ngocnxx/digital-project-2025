@@ -926,7 +926,7 @@ body.danang-page {
   font-weight: 700;
   box-shadow: 0 4px 20px rgba(90,60,15,0.12);
 }
-.weather-btn .img-sub {
+.weather-btn .link-sub{
   text-decoration: none;
   font-size: large;
 }
@@ -1506,7 +1506,6 @@ mark {
   justify-self: flex-end;
   text-align: right;
 }
-
 
 /* END OF CITY PAGES CSS */
 

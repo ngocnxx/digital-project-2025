@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
     video.pause();
     video.currentTime = 0;
     video.muted = true; // reset muted for next open 
+    openBtn.focus();
+
   }
 
   // Close with X or backdrop
