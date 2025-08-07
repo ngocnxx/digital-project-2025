@@ -250,11 +250,15 @@ font-weight: bold;
   width: 100%;
   height: auto;
   border-radius: var(--radius);
+   z-index: 1;                  
 }
+
 .close-btn {
   position: absolute;
   top: 8px;
   right: 12px;
+  pointer-events: auto;        
+  z-index:999;
   background: transparent;
   color: var(--clr-white);
   border: none;
@@ -265,6 +269,7 @@ font-weight: bold;
 .close-btn:hover { 
   opacity: 0.75;
  }
+
 
 /* WELCOME SECTION - HOMEPAGE */
 .welcome {
